@@ -1,0 +1,24 @@
+/**
+ *
+ * Base styles
+ *
+ */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.caption {
+  text-align: center;
+}

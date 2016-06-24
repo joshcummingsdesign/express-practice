@@ -1,0 +1,16 @@
+extends layout
+block content
+
+  .site-wrap.blog
+    .container
+      .jumbotron
+        h1 Blog
+        p Latest posts from the developers at Grizzly.
+
+      .row
+        each post in posts
+          .col-sm-6.col-md-4
+            a(href="/blog/#{post.slug}")
+              .thumbnail
+                .caption
+                    h3 #{post.title}
